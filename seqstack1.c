@@ -96,6 +96,7 @@ int SeqStactTop(SeqStact* stack,SeqStactType* value)
         return 0;
     }
     *value=stack->data[stack->size-1];
+    return 1;
 }
 
 /**
